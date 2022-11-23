@@ -1,0 +1,94 @@
+div {
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+#playground {
+    position: absolute;
+}
+
+.piece {
+    width: 100px;
+    height: 100px;
+}
+
+/* let's set background images and correct positions for the pieces */
+#a1 {
+    background-image: url('picture.jpg');
+    background-position-x: 0px;
+    background-position-y: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#a2 {
+    background-image: url('picture.jpg');
+    background-position-x: -100px;
+    background-position-y: 0px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+
+#a3 {
+    background-image: url('picture.jpg');
+    background-position-x: -200px;
+    background-position-y: 0px;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+}
+
+#b1 {
+    background-image: url('picture.jpg');
+    background-position-x: 0px;
+    background-position-y: -100px;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+}
+
+#b2 {
+    background-image: url('picture.jpg');
+    background-position-x: -100px;
+    background-position-y: -100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#b3 {
+    background-image: url('picture.jpg');
+    background-position-x: -200px;
+    background-position-y: -100px;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+
+#c1 {
+    background-image: url('picture.jpg');
+    background-position-x: 0px;
+    background-position-y: -200px;
+    position: absolute;
+    left: 0px;
+    top: 200px;
+}
+
+#c2 {
+    background-image: url('picture.jpg');
+    background-position-x: -100px;
+    background-position-y: -200px;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+}
+
+#sprite {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: -1;
+}
