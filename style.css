@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  overflow-y: hidden;
+}
+html {
+  font-size: 62.5%;
+}
+.game {
+  margin: 15rem auto 0 auto;
+  height: 30rem;
+  width: 30rem;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1px;
+  transition: all 1s;
+}
+
+.card {
+  height: 10rem;
+  width: 10rem;
+}
+.card-1 {
+  background-image: url("picture.jpg");
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+.card-2 {
+  background-image: url("picture.jpg");
+  background-position-x: -100px;
+  background-position-y: 0px;
+}
+
+.card-3 {
+  background-image: url("picture.jpg");
+  background-position-x: -200px;
+  background-position-y: 0px;
+}
+.card-4 {
+  background-image: url("picture.jpg");
+  background-position-x: 0px;
+  background-position-y: -100px;
+}
+.card-5 {
+  background-image: url("picture.jpg");
+  background-position-x: -100px;
+  background-position-y: -100px;
+}
+.card-6 {
+  background-image: url("picture.jpg");
+  background-position-x: -200px;
+  background-position-y: -100px;
+}
+.card-7 {
+  background-image: url("picture.jpg");
+  background-position-x: 0px;
+  background-position-y: -200px;
+}
+
+.card-8 {
+  background-image: url("picture.jpg");
+  background-position-x: 200px;
+  background-position-y: -200px;
+}
+
+.card-9 {
+  background-image: url("picture.jpg");
+  background-position-x: -200px;
+  background-position-y: -200px;
+}
+
+.card--pos-1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.card--pos-2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.card--pos-3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.card--pos-4 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.card--pos-5 {
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.card--pos-6 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+}
+.card--pos-7 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+}
+.card--pos-8 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+}
+.card--pos-9 {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
